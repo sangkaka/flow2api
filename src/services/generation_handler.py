@@ -35,6 +35,26 @@ MODEL_CONFIG = {
         "model_name": "GEM_PIX_2",
         "aspect_ratio": "IMAGE_ASPECT_RATIO_PORTRAIT"
     },
+    "gemini-3.0-pro-image-square": {
+        "type": "image",
+        "model_name": "GEM_PIX_2",
+        "aspect_ratio": "IMAGE_ASPECT_RATIO_SQUARE"
+    },
+    "gemini-3.0-pro-image-four-three": {
+        "type": "image",
+        "model_name": "GEM_PIX_2",
+        "aspect_ratio": "IMAGE_ASPECT_RATIO_LANDSCAPE_FOUR_THREE"
+    },
+    "gemini-3.0-pro-image-three-four": {
+        "type": "image",
+        "model_name": "GEM_PIX_2",
+        "aspect_ratio": "IMAGE_ASPECT_RATIO_PORTRAIT_THREE_FOUR"
+    },
+    "gemini-3.0-pro-image-unspecified": {
+        "type": "image",
+        "model_name": "GEM_PIX_2",
+        "aspect_ratio": "IMAGE_ASPECT_RATIO_UNSPECIFIED"
+    },
 
     # 图片生成 - IMAGEN_3_5 (Imagen 4.0)
     "imagen-4.0-generate-preview-landscape": {
